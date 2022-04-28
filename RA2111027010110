@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+int number1,number2;
+scanf("%d %d",&number1,&number2);
+if(number1<number2)
+{
+printf("The Second Number is greater than First Number");
+}
+else if(number1>number2)
+{
+printf("The First Number is greater than Second Number");
+}
+else
+{
+printf("Both the Numbers are Equal");
+}
+return 0;
+}
